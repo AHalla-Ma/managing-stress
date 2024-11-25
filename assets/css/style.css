@@ -25,6 +25,9 @@ h1, h2, h3 {
     color: var(--secondary-color);
 }
 
+h5 {
+    font-size: 2rem;
+}
 p {
     font-size: 1.2rem;
     line-height: 1.5;
@@ -78,3 +81,4 @@ footer {
     background-color: var(--third-color);
     height: 110px;
 }
+
