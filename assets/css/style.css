@@ -99,8 +99,12 @@ footer {
     /* Medium devices (tablets 768px and up) */
     @media screen and (min-width: 768px) {
         /* Make all cards the same height for consistency */
-        #signs .card-body {
-            min-height: 250px;
+        .card-body {
+            min-height: 650px;
+        }
+
+        .card-img-top {
+            height: 400px;
         }
 
     }
