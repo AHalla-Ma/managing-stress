@@ -77,7 +77,7 @@ section {
 
 #practical-tips {
 background-color: #574B60;
-height: 220px;
+height: auto;
 color:#c8e3b1;
 font-size: 3rem;
 }
@@ -134,3 +134,16 @@ footer {
         padding: 20px;
         text-align: center;
       }
+
+      #managing-stress img {
+        width: auto;
+        height: 500px;
+      }
+
+      .right {
+        position: absolute;
+        right: 0;
+        width: 50%; 
+      }
+
+    
