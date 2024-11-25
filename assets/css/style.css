@@ -82,9 +82,14 @@ color:#c8e3b1;
 font-size: 3rem;
 }
 
-.slider { width: 100%; overflow: hidden; position: relative; } 
+.slider { 
+    width: 100%; 
+    overflow: hidden; 
+    position: relative; } 
 
-.slides { display: flex; transition: transform 0.5s ease-in-out; } 
+.slides { 
+    display: flex; 
+    transition: transform 0.5s ease-in-out; } 
 
 .slide { min-width: 100%; box-sizing: border-box; padding: 20px; text-align: center; 
     background-color: var(--fourth-color); } 
@@ -103,20 +108,9 @@ footer {
 
 
 
- /* Media Queries */
 
-    /* Medium devices (tablets 768px and up) */
-    @media screen and (min-width: 768px) {
-        /* Make all cards the same height for consistency */
-        .card-body {
-            min-height: 650px;
-        }
 
-        .card-img-top {
-            height: 350px;
-        }
-
-    }
+ 
 
     .testimonial-container {
         width: 80%;
@@ -137,13 +131,26 @@ footer {
 
       #managing-stress img {
         width: auto;
-        height: 500px;
+        height: 25%;
       }
 
-      .right {
-        position: absolute;
-        right: 0;
-        width: 50%; 
-      }
+      
+ /* Media Queries */
+       /* Medium devices (tablets 768px and up) */
+       @media screen and (min-width: 768px) {
+        /* Make all cards the same height for consistency */
+        .card-body {
+            min-height: 650px;
+        }
 
+        .card-img-top {
+            height: 350px;
+        }
+
+        #managing-stress img {
+            width: auto;
+            height: 35%;
+          }
+
+    }
     
