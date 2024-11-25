@@ -17,7 +17,7 @@ body {
     background-color: #cea2ac25;
     color: var(--secondary-color);
     margin: 0;
-    padding: 0;
+;
 }
 
 h1, h2, h3 {
@@ -76,5 +76,5 @@ height: 200px;
 
 footer {
     background-color: var(--third-color);
-    height: 150px;
+    height: 110px;
 }
