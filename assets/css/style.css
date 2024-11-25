@@ -29,3 +29,11 @@ p {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
+/* Hero styling */
+#hero {
+    background: url(/assets/images/TaiChi.png);
+    background-size: cover;
+    height: 600px;
+  
+}
