@@ -77,8 +77,20 @@ section {
 
 #practical-tips {
 background-color: #574B60;
-height: 200px;
+height: 220px;
+color:#c8e3b1;
+font-size: 3rem;
 }
+
+.slider { width: 100%; overflow: hidden; position: relative; } 
+
+.slides { display: flex; transition: transform 0.5s ease-in-out; } 
+
+.slide { min-width: 100%; box-sizing: border-box; padding: 20px; text-align: center; 
+    background-color: var(--fourth-color); } 
+
+.slide p { margin: 10px 0;
+font-size: 1.8rem; }
 
 footer {
     background-color: var(--third-color);
@@ -86,12 +98,9 @@ footer {
 }
 
 .large-card p {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 
-.large-card li {
-    font-size: 1.7rem;
-}
 
 
  /* Media Queries */
@@ -104,7 +113,24 @@ footer {
         }
 
         .card-img-top {
-            height: 400px;
+            height: 350px;
         }
 
     }
+
+    .testimonial-container {
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      
+      .testimonial-slider {
+        display: flex;
+        transition: margin-left 1s ease-in-out;
+      }
+      
+      .testimonial {
+        flex: 0 0 100%;
+        padding: 20px;
+        text-align: center;
+      }
