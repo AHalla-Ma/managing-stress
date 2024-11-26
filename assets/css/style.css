@@ -17,6 +17,7 @@ body {
     background-color: #cea2ac25;
     color: var(--secondary-color);
     margin: 0;
+    height: 100%;
 ;
 }
 
@@ -24,6 +25,7 @@ h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
     margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 h5 {
@@ -101,9 +103,7 @@ font-size: 3rem;
 .slide p { margin: 10px 0;
 font-size: 1.8rem; }
 
-footer {
-    background-color: var(--third-color);
-}
+
 
 .large-card p {
     font-size: 1.2rem;
@@ -206,6 +206,10 @@ footer {
     margin: 20px;
  }
 
+ .footer {
+    background-color: var(--third-color);
+    margin-top: auto;
+}
  /* Media Queries */
 
        /* Medium devices (tablets 768px and up) */
