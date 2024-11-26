@@ -3,67 +3,78 @@
 ### Project Brief 4: Mental Health Awareness
 
 # Table of Contents 
-1. [Introduction/Overview]
-2. [UX Design]
-3. [Development Considerations]
-4. [Testing]
-5. [Future Features]
-6. [Project Deployment]
-7. Known Bugs 
-8. [Repository and Project Board]
-9. [Credits]
+1. Introduction/Overview
+2. UX Design
+3. Development Considerations
+4. Testing
+5. Future Features
+6. Project Deployment
+7. Known Bugs
+8. Repository and Project Board
+9. Credits
 
-<a id="introduction"><a/a>
+<a id="introduction"></a>
 ## Introduction
 
-Welcome to Managing Stress, a website designed to provide beginner-friendly information on mental health, including how to recognise common issues and manage stress, preseneted in a supportive and organised layout for the user.
-The 
+Welcome to Solving Stress, a website designed to provide beginner-friendly information on mental health, including how to recognise and manage stress, preseneted in a supportive and organised layout for the user.
+
+The website provides a section outlining feelings associated with stress, physical symptoms, the behaviours associated with stress and an outline of what can cause it.
 
 ## UX Design 
 
-Solving Stress is designed to be intuitive to use and to present information in a clear and easy-to-read way. A navigation bar is placed at the top to help the user to move around the site and a footer can be found at the bottom linking to social media pages.
+Solving Stress is designed to be intuitive to use, with information presented in a clear and easy-to-read way. A navigation bar is placed at the top to help the user to move around the site. The footer can be found at the bottom providing contact information and links to social media pages.
 
-The hero image is used at the start of the page to provide an insight for the user into the theme that will be explored in the site. 
+The hero image is used at the start of the page to provide an insight into the themes that will be explored in the site and to inspire a feeling of calm. 
 
-A navbar containing the website title  on the left with logo was used followed by clear links to other parts of the site, it has been designed responsively so will show an burger when the site is viewed on mobile screens (x px and smaller). 
+The "What are the signs of stress?" has been presented in a card layout, with four cards displaying key information in bullet point format. The cards are responsive and shrink when viewed on smaller screens. 
+
+The banner with sliding information was designed using Javascript and is there to provide a more interactive focus for key information, providing practical details for the user on how to combat stress. 
 
 ### Style 
 
 A colour palette focusing on different shades of green as well as some contrasting darker colours (English violet and Rosy brown) from Coolers was used to provide a consistent colour theme throughout the site. 
 
-[include link to coolers image]
-
-![alt text](image link)
+![alt text](assets/images/Solving_Stress_Website_Coolers.png)
 
 https://coolors.co/c8e3b1-aac0aa-4f5d2f-574b60-cea2ac
 
 ### Development Considerations
 
-Upon deciding to choose mental health awareness as a topic, I considered the key features of the site and designed basic wireframes and mockup sites to help refine the design process. I used a brainstorming process to consider the user goals, key features, potential ideas and key components. 
+Upon deciding to choose mental health awareness as a topic, I considered the key features of the site and designed basic wireframes and mockup sites to help refine the design process. 
 
-[include brainstorming image]
+I used a brainstorming process to consider the user goals, key features, potential ideas and key components. An image of my brainstorm is shown below:
 
-The mockup designs helped to refine the style and layout and are shown below. 
+![Brainstorm for solving stress site](/assets/images/Brainstorm_solving_stress.png)
 
-[include links to mockup sites)
+I created user-stories to provide a solid foundation on who might use the site and for what purpose. Key users included busy professionals, parents, wellbeing managers, health conscious individuals and employees - the site needed to provide clear and concise information on stress, as well as practical tips that could be used to help manage it on a day to basis. 
 
-Gathering assets and resources 
+Mockup designs helped to refine the style and layout for mobiles and larger screens:  
+
+![Wireframe Mobile](/assets/images/Wireframe_Mobile.png)
+
+![Wireframe Mobile](/assets/images/Wireframe_website.png)
+
+The images on the site were separated into two categories, one was linked to feelings of calm and meditation. The second category of images were used for the card section and were selected because they helped to represent the categories topics more visually/creatively.  
 
 ### Testing 
 
-The website was test in the following ways before finalisation:
-- CS3 validation
-- xxx
-- xxx
-- xxx
+The website was tested in the following ways before finalisation:
+- W3 validation - this highlighted that some images were saved with spaces in the name which were fixed
+- W3 CSS validation - passed CSS checks 
+- User testing - use of Chrome DevTools to check responsiveness. Images were fixed to work better across devices of different screen sizes. 
+- Deployment - upon deployment CSS links and the hero image link did not work, this was fixed by reviewing the file path 
 
 ### Future Features 
 
 Moving forward the user experience could be enhanced by incorporating the following elements:
-
+- Adding additional pages to the site which provide more information such as a page with useful links to external sites that can support people struggling with stress 
+- Adding video content to provide a new format for the delivery of key information  
+- Further user testing with wider groups to ensure image and text sizing works effectively 
 
 ### Website Deployment 
 
-The deployed website can be found here: xxx
+The deployed website can be found here: https://ahalla-ma.github.io/solving-stress/
 
 ### Credits 
+
+All images are sourced from Canva 
