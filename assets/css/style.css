@@ -164,21 +164,44 @@ footer {
         margin: 2px;
     }
 
+    #managing-stress {
+        height: auto;
+    }
+
+    #managing-stress img {
+        width: 200px;
+        height: 250px;
+        border-radius: 20%;
+      }
+
+      #contact p {
+        border: solid 1px #4F5D2F;
+      }
+
+      footer .social-links a {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        color:#4F5D2F;
+        font-size: 1.6rem;
+    }
 
  /* Media Queries */
+
        /* Medium devices (tablets 768px and up) */
        @media screen and (min-width: 768px) {
         /* Make all cards the same height for consistency */
         .card-body {
-            min-height: 650px;
+            min-height: 500px;
         }
         .card-img-top {
             height: 350px;
         }
 
         #managing-stress img {
-            width: auto;
-            height: 35%;
+            width: 400px;
+            height: 500px;
+            text-align: right;
           }
     }
     
