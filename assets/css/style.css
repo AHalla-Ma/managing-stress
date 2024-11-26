@@ -133,6 +133,7 @@ footer {
 
 .contact {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     font-size: 1.4rem;
@@ -216,3 +217,29 @@ footer {
           }
     }
     
+         /* Medium devices (tablets 576px and up)
+         @media screen and (min-width: 576px) {
+            /* Make all cards the same height for consistency 
+            .card-body {
+                min-height: 500px;
+            }
+            .card-img-top {
+                height: 250px;
+                width: 80%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            #managing-stress img {
+                width: 400px;
+                height: 500px;
+                text-align: right;
+              }
+        }  */
+        
+    /* @media screen and (max-width: 576px) {
+
+        #managing-stress img {
+            display: none;
+        }} */
