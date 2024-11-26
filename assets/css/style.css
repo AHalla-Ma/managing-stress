@@ -53,8 +53,8 @@ p {
 }
 
 .fa-solid {
-    padding: 15px;
     font-size: 2rem;
+    padding: 8px;
 }
 
 /* Hero styling */
@@ -65,7 +65,7 @@ p {
     margin-top: -150px;
 }
 
-#hero h2 {!important; 
+#hero h2 {
     display: none; 
 }
 
@@ -144,7 +144,7 @@ footer {
     color:#4F5D2F;} 
     
     .contact > * {
-        margin: 0 10px;
+        margin: 0 1px;
     }
 
 
@@ -179,6 +179,12 @@ footer {
 
     .fa-solid {
         font-size: 1.2rem;
+        padding: 8px;
+        margin: 0px;
+    }
+
+    #contact strong {
+        margin: 0px;
     }
 
     footer h2 {
