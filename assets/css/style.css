@@ -99,17 +99,27 @@ font-size: 1.8rem; }
 
 footer {
     background-color: var(--third-color);
-    height: 110px;
 }
 
 .large-card p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
+/* Social Links Styling */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.4rem;
+    color:#4F5D2F;} 
 
 
+    .social-links {
+        text-align: right;
 
+    }
  
 
     .testimonial-container {
@@ -134,7 +144,27 @@ footer {
         height: 25%;
       }
 
-      
+      #contact p {
+        border: solid 1px #4F5D2F;
+      }
+
+      footer .social-links a {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        color:#4F5D2F;
+        font-size: 1.6rem;
+    }
+
+    .fa-solid {
+        font-size: 1.2rem;
+    }
+
+    footer h2 {
+        margin: 2px;
+    }
+
+
  /* Media Queries */
        /* Medium devices (tablets 768px and up) */
        @media screen and (min-width: 768px) {
