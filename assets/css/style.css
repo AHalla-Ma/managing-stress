@@ -59,10 +59,14 @@ p {
 
 /* Hero styling */
 #hero {
-    background: url(/solving-stress/assets/images/TaiChi.png);
+    background: url(/assets/images/TaiChi.png);
     background-size: cover;
     height: 700px;
     margin-top: -150px;
+}
+
+#hero h2 {!important; 
+    display: none; 
 }
 
 section {
@@ -238,8 +242,12 @@ footer {
               }
         }  */
         
-    /* @media screen and (max-width: 576px) {
+    @media screen and (max-width: 425px) {
 
-        #managing-stress img {
-            display: none;
-        }} */
+        #hero {
+            background-size: cover;
+    height: 300px;
+    margin-top: 0;
+        }}
+
+ 
