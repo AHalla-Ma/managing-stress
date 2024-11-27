@@ -147,6 +147,32 @@ section {
     height: 25%;
 }
 
+
+
+/* Managing Stress Info Section Styling */
+#managing-stress {
+    height: auto;
+}
+
+#managing-stress img {
+    width: 200px;
+    height: 250px;
+    border-radius: 20%;
+}
+
+#resources iframe {
+    margin: 20px;
+}
+
+#resources p {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: var(--third-color);
+    margin-top: auto;
+}
+
 /* Footer Styling */
 
 .contact {
@@ -205,31 +231,6 @@ footer .social-links a {
 footer h2 {
     margin: 2px;
 }
-
-/* Managing Stress Info Section Styling */
-#managing-stress {
-    height: auto;
-}
-
-#managing-stress img {
-    width: 200px;
-    height: 250px;
-    border-radius: 20%;
-}
-
-#resources iframe {
-    margin: 20px;
-}
-
-#resources p {
-    font-size: 1.5rem;
-}
-
-.footer {
-    background-color: var(--third-color);
-    margin-top: auto;
-}
-
 
 
 /* Media Queries */
