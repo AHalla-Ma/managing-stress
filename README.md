@@ -26,22 +26,6 @@ The website provides a section outlining feelings associated with stress, physic
 
 ## UX Design
 
-### User stories
-
-1.As an employee with a busy schedule I want to understand what the signs of stress are so that I can recognise and act on them quickly
-    a.Section on the symptoms/signs of stress with clearly presented, bullet point information
-2.As a busy professional with lots of project deadlines I want to be able to easily access advice online on how to manage stress so that I can feel more relaxed in and outside of work
-    a.Combat stress advice section in a user-friendly, easily navigable format
-3.As a colleague I would like to know what organisations exist to help me so that I can access the right resources when I need them
-    a.Page containing links to useful resources and partners
-4.As a health conscious individual I would like to find out what has worked for other people so that I can consider and implement practical tips that might work for me
-    a.Quote carousel which highlights tips that have worked for others in an informative way
-    b.Clear and responsive nav-bar with links to relevant pages
-5.As a new parent returning to work I want to find resources on how to manage my time more effectively so that I can disconnect at the end of the working day
-6.As a person who is affected by stress I would like to find out about techniques I can use at work so that I can manage anxiety better
-7.As a wellbeing manager I would like a site that I can direct my colleagues to a user-friendly, clear website where they can learn more about their mental health and stress management and receive access to regular resources  
-    a.Link for newsletter sign-up
-
 Solving Stress is designed to be intuitive to use, with information presented in a clear and easy-to-read way. A navigation bar is placed at the top to help the user to move around the site. The footer can be found at the bottom providing contact information and links to social media pages.
 
 The hero image is used at the start of the page to provide an insight into the themes that will be explored in the site and to inspire a feeling of calm.
@@ -66,7 +50,17 @@ I used a brainstorming process to consider the user goals, key features, potenti
 
 I created user-stories to provide a solid foundation on who might use the site and for what purpose. Key users included busy professionals, parents, wellbeing managers, health conscious individuals and employees - the site needed to provide clear and concise information on stress, as well as practical tips that could be used to help manage it on a day to basis.
 
-Mockup designs helped to refine the style and layout for mobiles and larger screens:  
+| User Stories |
+| ----------- |
+| As an employee with a busy schedule I want to understand what the signs of stress are so that I can recognise and act on them quickly|
+| As a busy professional with lots of project deadlines I want to be able to easily access advice online on how to manage stress so that I can feel more relaxed in and outside of work |
+| As a colleague I would like to know what organisations exist to help me so that I can access the right resources when I need them |
+| As a health conscious individual I would like to find out what has worked for other people so that I can consider and implement practical tips that might work for  |
+| As a new parent returning to work I want to find resources on how to manage my time more effectively so that I can disconnect at the end of the working day and create a better work-life balance |
+|As a person who is affected by stress I would like to find out about techniques I can use at work so that I can manage anxiety better |
+| As a wellbeing manager I would like a site that I can direct my colleagues to a user-friendly, clear website where they can learn more about their mental health and stress management and receive access to regular resources |
+
+Wireframe designs were used in the early stage of development to help refine the style and layout for mobiles and larger screens:  
 
 ![Wireframe Mobile](/assets/images/Wireframe_Mobile.png)
 
