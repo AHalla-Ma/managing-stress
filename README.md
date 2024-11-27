@@ -26,6 +26,22 @@ The website provides a section outlining feelings associated with stress, physic
 
 ## UX Design
 
+### User stories
+
+1.As an employee with a busy schedule I want to understand what the signs of stress are so that I can recognise and act on them quickly
+    a.Section on the symptoms/signs of stress with clearly presented, bullet point information
+2.As a busy professional with lots of project deadlines I want to be able to easily access advice online on how to manage stress so that I can feel more relaxed in and outside of work
+    a.Combat stress advice section in a user-friendly, easily navigable format
+3.As a colleague I would like to know what organisations exist to help me so that I can access the right resources when I need them
+    a.Page containing links to useful resources and partners
+4.As a health conscious individual I would like to find out what has worked for other people so that I can consider and implement practical tips that might work for me
+    a.Quote carousel which highlights tips that have worked for others in an informative way
+    b.Clear and responsive nav-bar with links to relevant pages
+5.As a new parent returning to work I want to find resources on how to manage my time more effectively so that I can disconnect at the end of the working day
+6.As a person who is affected by stress I would like to find out about techniques I can use at work so that I can manage anxiety better
+7.As a wellbeing manager I would like a site that I can direct my colleagues to a user-friendly, clear website where they can learn more about their mental health and stress management and receive access to regular resources  
+    a.Link for newsletter sign-up
+
 Solving Stress is designed to be intuitive to use, with information presented in a clear and easy-to-read way. A navigation bar is placed at the top to help the user to move around the site. The footer can be found at the bottom providing contact information and links to social media pages.
 
 The hero image is used at the start of the page to provide an insight into the themes that will be explored in the site and to inspire a feeling of calm.
@@ -66,6 +82,7 @@ The website was tested in the following ways before finalisation:
 - W3 CSS validation - passed CSS checks
 - User testing - use of Chrome DevTools to check responsiveness. Images were fixed to work better across devices of different screen sizes.
 - Deployment - upon deployment CSS links and the hero image link did not work, this was fixed by reviewing the file path
+- Lighthouse test -
 
 Accessibility: testing also checked that images had alt text added and aria-labels were included where necessary to support accessible use.
 
@@ -96,6 +113,11 @@ The information on stress was sourced from:
 - Mind.Org <https://www.mind.org.uk>
 - Harvard Medical School <https://www.health.harvard.edu/staying-healthy/exercising-to-relax>
 - Mental Health Foundation <https://www.mentalhealth.org.uk/explore-mental-health/publications/how-manage-and-reduce-stress>
+
+Videos sourced from Youtube:
+
+-Yoga with Adrienne
+-Calm meditation
 
 ## Technologies Used
 

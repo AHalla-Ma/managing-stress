@@ -61,7 +61,8 @@ p {
 
 /* Hero styling */
 #hero {
-    background: url(/solving-stress/assets/images/TaiChi.png);
+    background: url(/assets/images/tai_chi_hero_image.png);
+    /* background: url(/solving-stress/assets/images/TaiChi.png); */
     background-size: cover;
     height: 700px;
     margin-top: -150px;
