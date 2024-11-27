@@ -207,6 +207,10 @@ font-size: 1.8rem; }
     margin: 20px;
  }
 
+ #resources p {
+    font-size:
+ }
+
  .footer {
     background-color: var(--third-color);
     margin-top: auto;
