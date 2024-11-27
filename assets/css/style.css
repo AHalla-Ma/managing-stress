@@ -61,8 +61,8 @@ p {
 
 /* Hero styling */
 #hero {
-    background: url(/assets/images/tai_chi_hero_image.png);
-    /* background: url(/solving-stress/assets/images/TaiChi.png); */
+    /* background: url(/assets/images/tai_chi_hero_image.png); */
+    background: url(/solving-stress/assets/images/TaiChi.png);
     background-size: cover;
     height: 700px;
     margin-top: -150px;
@@ -211,6 +211,9 @@ font-size: 1.8rem; }
     background-color: var(--third-color);
     margin-top: auto;
 }
+
+
+    
  /* Media Queries */
 
        /* Medium devices (tablets 768px and up) */
@@ -232,6 +235,29 @@ font-size: 1.8rem; }
             height: 500px;
             text-align: right;
           }
+
+          .flex-container {  
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: space-evenly; } 
+
+            /*.iframe-container { flex: 1 1 46%;
+                margin: 10px; 
+                position: relative; 
+                padding-bottom: 56.25%; /* 16:9 aspect ratio 
+                height: 0; overflow: hidden; } 
+                
+                .responsive-iframe { 
+                    position: absolute; top: 0; 
+                    left: 0; 
+                    width: 70%; 
+                    height: 70%; 
+                    border: 0 */
+                
+          }
+
+
+
     }
     
          /* Medium devices (tablets 576px and up)
