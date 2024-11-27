@@ -10,7 +10,7 @@
     --third-color: #AAC0AA;
     --fourth-color: #574B60;
     --fifth-color: #CEA2AC;
-}
+    }
 
 body {
     font-family: var(--primary-font);
@@ -64,12 +64,12 @@ p {
 
 /* Hero styling */
 #hero {
-    /* background: url(/assets/images/tai_chi_hero_image.png); */
-    background: url(/solving-stress/assets/images/TaiChi.png);
+    background: url(/solving-stress/assets/images/tai_chi_hero_image.png);
     background-size: cover;
-    height: 700px;
-    margin-top: -150px;
+    height: 500px;
+    margin-right: -100px; 
 }
+
 
 #hero h2 {
     display: none;
@@ -238,6 +238,17 @@ footer h2 {
 
 
 /* Media Queries */
+@media screen and (min-width: 400px) {
+    #hero{
+        background-size: cover;
+         
+         height: 700px;
+        margin-top: -150px;
+    }
+    
+    }
+}
+
 
 /* Medium devices (tablets 768px and up) */
 @media screen and (min-width: 768px) {
@@ -265,8 +276,8 @@ footer h2 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        height: 50px
+        height: 50px;
+        height: 50px;
         width: 90%;
         text-align: center;
     }
@@ -294,6 +305,7 @@ footer h2 {
 
 
 
+
 /* Medium devices (tablets 576px and up)
          @media screen and (min-width: 576px) {
             /* Make all cards the same height for consistency 
@@ -315,11 +327,3 @@ footer h2 {
               }
         }  */
 
-@media screen and (max-width: 425px) {
-
-    #hero {
-        background-size: cover;
-        height: 300px;
-        margin-top: 0;
-    }
-}
