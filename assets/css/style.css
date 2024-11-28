@@ -64,10 +64,11 @@ p {
 
 /* Hero styling */
 #hero {
-    background: url(/solving-stress/assets/images/tai_chi_hero_image.png);
+    background: url(/assets/images/tai_chi_hero_image.png);
     background-size: cover;
     height: 500px;
-    margin-right: -100px; 
+    margin-right: 0; 
+    background-position: center;
 }
 
 
@@ -91,6 +92,8 @@ section {
     color: #c8e3b1;
     font-size: 3rem;
 }
+
+/* Styling for slider carousel */
 
 .slider {
     width: 100%;
@@ -116,7 +119,7 @@ section {
     font-size: 1.8rem;
 }
 
-
+/* Card Styling */
 
 .large-card p {
     font-size: 1.2rem;
@@ -241,13 +244,12 @@ footer h2 {
 @media screen and (min-width: 400px) {
     #hero{
         background-size: cover;
-         
          height: 700px;
         margin-top: -150px;
     }
     
     }
-}
+
 
 
 /* Medium devices (tablets 768px and up) */
@@ -255,11 +257,11 @@ footer h2 {
 
     /* Make all cards the same height for consistency */
     .card-body {
-        min-height: 500px;
+        min-height: 400px;
     }
 
     .card-img-top {
-        height: 250px;
+        height: 200px;
         width: 80%;
         display: block;
         margin-left: auto;
@@ -300,30 +302,3 @@ footer h2 {
                     border: 0;
 
 }
-
-
-
-
-
-
-/* Medium devices (tablets 576px and up)
-         @media screen and (min-width: 576px) {
-            /* Make all cards the same height for consistency 
-            .card-body {
-                min-height: 500px;
-            }
-            .card-img-top {
-                height: 250px;
-                width: 80%;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-    
-            #managing-stress img {
-                width: 400px;
-                height: 500px;
-                text-align: right;
-              }
-        }  */
-
