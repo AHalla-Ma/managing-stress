@@ -178,6 +178,7 @@ section {
 footer {
     background-color: var(--third-color);
     margin-top: auto;
+    
 }
 
 /* Footer Styling */
@@ -301,4 +302,7 @@ footer h2 {
                     height: 300px; 
                     border: 0;
 
+}
+#resources .container{
+    height: 300px;
 }
