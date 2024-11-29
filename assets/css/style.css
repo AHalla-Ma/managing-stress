@@ -257,6 +257,10 @@ footer h2 {
 @media screen and (min-width: 768px) {
 
     /* Make all cards the same height for consistency */
+    
+    .box {
+        height: 1500px;
+    }
     .card-body {
         min-height: 400px;
     }
@@ -300,9 +304,16 @@ footer h2 {
                     left: 0; 
                     width: 100%; 
                     height: 300px; 
-                    border: 0;
+                    border: 0;}
+
 
 }
-#resources .container{
-    height: 300px;
+
+@media screen and (min-width: 980px) {
+    
+    .box {
+        height: 1100px;
+        margin-top: auto;
+    }
+
 }
